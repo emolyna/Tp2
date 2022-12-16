@@ -1,0 +1,413 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,500;1,500&family=Kosugi+Maru&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Kosugi Maru', sans-serif;
+    background-color: black;
+}
+
+
+#main{
+    margin: 0 auto;
+    width: 85vw;
+}
+
+header{
+    background-color: black;
+    font-size: clamp(0.8rem, 2.5vw, 1rem); 
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.entete div{
+    margin-left: 300px;
+    margin-right: 300px;
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: black;
+    text-shadow: 0 0 10px #FF0800;
+}
+
+/*MENU*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 5vw;
+    width: auto;
+    position:fixed;
+    top: 0px;
+    left: 15px;
+}
+
+nav img{
+    height: 100px;
+    width: 100px;
+}
+
+a{
+    border-radius: 50%;
+    transition: 1s;
+}
+a:hover{ 
+  transform-origin: 50% 50%;
+  transform: rotate(360deg);
+  transition: 1s;
+}
+
+a:active{
+    -webkit-box-shadow: 0 0 15px 12px #FFF9F0;
+    box-shadow: 0 0 15px 12px #FFF9F0;
+}
+
+/*RADIO DE L'ACCUEIL*/
+.accueil{
+    position: relative;
+    top: 20% ;
+    background-image: url("../images/radio.png");
+    background-position: center;
+    margin: 0 auto;
+    width: 850px;
+    height: 575px;
+    text-align: center;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.radioTexte{
+    width: 450px;
+    height: 8vh;
+    background-color: grey;
+    position: absolute;
+    left: 255px;
+    top: 138px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.radioCom{
+    background-color: rgb(204, 202, 202);
+    height: 40px;
+    width: 225px;
+    position: absolute;
+    bottom: 115px;
+    left: 300px;
+    border-radius: 5px;
+    border:2px grey solid;
+    font-size: 1.3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 1s;
+}
+
+.radioCom:hover{
+    /*width: 240px;
+    height: 45px;*/
+    background-color: rgb(136, 136, 136) ;
+    /*left: 295px;
+    bottom: 112px;*/
+    transform: scale(1.3);
+}
+
+.radioCom a{
+    text-decoration: none;
+    color: black;
+}
+
+.arriereAc{
+    background-image: url("../images/arriereAccueil1.png");
+    background-position: center;
+    height: 100vh;
+}
+
+
+/*FORMULAIRE AUTRE PAGE*/
+
+
+/*ARTISTE*/
+.artiste{
+    height: 115vh;
+    /*display: flex;
+    flex-direction: row;
+    justify-content: center;*/
+    color: white;
+    margin: 0 auto;
+}
+
+.artiste h1, .artiste h2{
+    text-align: center;
+
+}
+
+.artiste1{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    text-align: justify;
+    margin: 50px;
+    position: relative;
+}
+
+.artiste1 h1, .artiste1 h2{
+    text-align: center;
+}
+
+.artite1 img{
+    display: flex;
+}
+
+.tyler, .rihanna, .megan{
+    padding: 15px;
+    border-radius: 5px;
+    height: 855px;;
+    width: 350px;
+    margin: 15px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    top: 0;
+
+}
+
+
+
+.tyler{
+    background-color: rgb(171, 216, 171);
+    top: 0;
+}
+
+.tyler:hover{
+    -webkit-box-shadow: 0 0 15px 12px #d7eec4;
+    box-shadow: 0 0 15px 12px #d7eec4;
+}
+
+.tyler div{
+    display: flex;
+    justify-content: center;
+}
+
+ .tyler img{
+    width: 185px;
+    margin: 10px;
+ }
+
+.rihanna{
+    background-color: rgb(253, 142, 142);
+}
+
+.rihanna:hover{
+    -webkit-box-shadow: 0 0 15px 12px #f5bfbd;
+    box-shadow: 0 0 15px 12px  #f5bfbd;
+}
+
+.rihanna div{
+    display: flex;
+    justify-content: center;
+}
+
+.rihanna img{
+    width: 180px;
+    margin: 10px;
+}
+
+.megan{
+    background-color: rgb(199, 153, 199);
+}
+
+.megan:hover{
+    -webkit-box-shadow: 0 0 15px 12px #f5cdf1;
+    box-shadow: 0 0 15px 12px #f5cdf1;
+}
+
+.megan div{
+    display: flex;
+    justify-content: center;
+}
+
+.megan img{
+    width: 250px;
+    margin: 10px;
+}
+
+/*GALERIE IMAGE ALBUMS*/
+
+.album{
+    height: auto;
+    width: 70vw;
+    margin: 0 auto;
+
+}
+
+.images{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.texteAl{
+    text-align: center;
+    margin: 30px;
+    color: white;
+    text-shadow: 0 0 10px #FF0800;
+}
+
+
+.album img{
+    width: 150px;
+    height: 150px;
+    margin: 15px;
+    -webkit-box-shadow: 0 0 15px 12px #FFF9F0;
+    box-shadow: 0 0 15px 12px #FFF9F0;
+    border-radius: 15px;
+    opacity: 1;
+    display: block;
+    transition: 0.5s ease;
+}
+
+.fondAl{
+    width: auto;
+    height: 175px;
+    margin: 15px;
+}
+
+.texteAr{
+    opacity: 0;
+    transition: 0.5s ease;
+    position: relative;
+    top: -10px;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    margin-top: -30%;
+    width: 30%;
+    height: auto;
+    font-style: italic;
+}
+
+.fondAl:hover .texteAr{
+    opacity: 0.9;
+
+}
+
+.fondAl:hover img{
+    opacity: 0.7;
+}
+
+.texteAr h2, .texteAr h3{
+    text-align: center;
+    width: 100%;
+    color: white;
+}
+
+.haut{
+    font-size: 1em;
+}
+
+.bas{
+    font-size: 0.9em;
+}
+
+
+/*VIDEO*/
+
+.video{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+iframe:hover{
+    border: 3px dashed white;
+    border-radius: 5px;
+    transform: scale(1.3);
+    margin: 50px;
+}
+
+iframe{
+    transition: transform 1s
+}
+
+.video h1{
+    text-shadow: 0 0 10px #e47cb8;
+}
+
+.video img{
+    width: 200px;
+}
+
+/*FOOTER*/
+footer{
+    height: 25vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    border-top: 3px solid white;
+    width: 85vw;
+    margin: 0 auto;
+}
+
+footer a{
+    color: rgb(104, 103, 103);
+}
+
+a:hover{
+    text-shadow: 0 0 10px #FF0800;
+}
+
+dl{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    flex: 0 1 20%;
+    padding-bottom: 20px;
+}
+dt{
+    font-size: 1.3em;
+    font-weight: bold;
+    text-align: center;
+}
+
+dd{
+    text-align: center ;
+}
+
+footer img{
+    width: 50px;
+}
+
+#confi{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-end;
+    width: 100%;
+}
+
+iframe{
+    width:700px; 
+    height:400px; 
+}

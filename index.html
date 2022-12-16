@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/global.css">
+        <link rel="stylesheet" href="css/form.css">
+        <link rel="stylesheet" href="css/tableau.css">
+        <title>TP2</title>
+    </head>
+    <body>
+        <div id="global">
+            <header>
+                <nav><!--MENU-->
+                    <a href="#1"><img src="images/accueil.png" alt="Accueil"></a>
+                    <a href="#2"><img src="images/formulaire.png" alt="Formulaire"></a>
+                    <a href="#3"><img src="images/artistefav.png" alt="Artistes Favoris"></a>
+                    <a href="#4"><img src="images/recommendation.png" alt="Recommendation par genre"></a>
+                    <a href="#5"><img src="images/album.png" alt="Meilleur album"></a>
+                    <a href="#6"><img src="images/video.png" alt="Vidéos clips"></a>
+                </nav>
+                <div class="entete" id="1"><!--EN-TETE-->
+                    <div>
+                        <h2>Exercice final</h2>
+                        <h2>582-1W1 Mise en page Web</h2>
+                        <h2>par: Mélyna Laurent</h2>
+                    </div>
+                </div>
+            </header>
+
+            <!--CONTENUE-->
+            <div id="main">
+                <div class="arriereAc">
+                    <section class="accueil" >
+                        <div class="radioTexte">
+                            <h1 >Bienvenue dans ma playlist!</h1>
+                        </div>
+                        <div class="radioCom">
+                            <h3><a href="#2"> Commencer! </a></h3>
+                        </div>
+                    </section>
+                </div>
+                <div class="ArriereF" id="2"><!--FORMULAIRE-->
+                    <section class="formulaire">
+                        <div class="glob">
+                            <div>
+                                <div class="icone">  
+                                    <img src="images/user1.png" alt="icone du user"> 
+                                </div>
+                                <h2>Avant, j'aimerais en savoir plus sur vous et vos gouts musicaux!</h2>
+                            </div>
+                            <form action="">
+                                <fieldset id="identification">
+                                        <legend>Qui êtes vous?</legend>
+                                        <fieldset class="range1">
+                                            <label>Votre nom:<input type="text" placeholder="Écrire ici"></label>
+                                            <label>Votre prénom:<input type="text" placeholder="Écrire ici"></label>
+                                            <label>Âge:<input type="number" min="0" max="125"></label>
+                                        </fieldset>
+                                                                           
+                                </fieldset>
+                                <fieldset id="passion">
+                                    <legend>À quelle point aimez-vous la musique?</legend>
+                                    <fieldset class="range2">
+                                        <label><input type="radio" name="apprecication">J'adore, j'en écoute tout les jours</label>
+                                        <label><input type="radio" name="apprecication">J'aime de facon modéré, j'en écoute quelque fois pas semaine</label>
+                                        <label><input type="radio" name="apprecication">Pas vraiment, il est rare que j'en écoute</label>
+                                        <label><input type="radio" name="apprecication">Non pas du tout, j'en écoute jamais</label>
+                                    </fieldset>
+                                </fieldset>
+                                <fieldset id="genre">
+                                    <legend>Vos genres musicaux favoris?</legend>
+                                    <label><input type="checkbox"  checked>Pop</label>
+                                    <label><input type="checkbox" >Hip Hop / Rap</label>
+                                    <label><input type="checkbox" >Rock / Heavy Metal</label>
+                                    <label><input type="checkbox" >Country</label>
+                                    <label><input type="checkbox" >Folk</label>
+                                    <label><input type="checkbox" >Jazz</label>
+                                    <label><input type="checkbox" >Classic</label>
+                                </fieldset>
+                                <fieldset id="recom">
+                                    <legend>Avez-vous des recommendations d'albums, d'artistes, de chansons et/ou de genre?</legend>
+                                    <textarea cols="20" rows="5" placeholder="Écrirez les juste ici!"></textarea>
+                                </fieldset>
+                                <fieldset id="boutons">
+                                    <input type="submit" value="Soumettre">
+                                    <input type="reset" value="Annuler">
+                                </fieldset>
+                            </form>
+                    </div>
+                    </section>
+                </div>
+                <section class="artiste" id="3"><!--ARTISTE-->
+                    <h1>Mes artistes favoris du moment</h1>
+                    
+                    <h2>Voici leurs biographies</h2>
+                    <div class="artiste1">
+                        <div class="tyler">
+                            <h1>Tyler The Creator</h1>
+                            <div>
+                                <img src="images/artiste/tyler1.webp" alt="Tyler The Creator">
+                            </div>
+                            <h2>BIOGRAPHIE</h2>
+                            <p>
+                                « De son vrai nom Tyler Gregory Okonma, né le 6 mars 1991 à Los Angeles, est un rappeur, producteur de musique, acteur, designer, graphiste, réalisateur et scénariste, styliste, directeur artistique américain.
+                                Principal rimeur du collectif et leader du collectif de hip-hop alternatif Odd Future, il est aussi membre du groupe EarlWolf avec son confrère Earl Sweatshirt, Tyler produit ses propres albums solo, le premier étant sa mixtape Bastard, publié sur Internet en 2009. Il suit d'un premier album, Goblin, publié le 10 mars 2011, et d'un deuxième, Wolf publié le 2 avril 2013 tous les deux au label XL. Son troisième album, Cherry Bomb, est publié le 13 avril 2015, son quatrième, Flower Boy, le 21 juillet 2017, son cinquième, IGOR, le 17 mai 2019, et son sixième, Call Me If You Get Lost, le 25 juin 2021.»
+                            </p>
+                        </div>
+                        <div class="rihanna">
+                            <h1>Rihanna</h1>
+                            <div>
+                                <img src="images/artiste/rihanna.jpg" alt="Rihanna">
+                            </div>
+                            <h2>BIOGRAPHIE</h2>
+                            <p>
+                                « Née le 20 février 1988 à Saint Michael (Barbade), est une chanteuse, parolière, actrice, styliste et femme d'affaires barbadienne.
+                                Selon la Recording Industry Association of America (RIAA), Rihanna est l'artiste qui compte le plus grand nombre de certifications de singles. Elle est aussi la première artiste au monde à franchir le cap de 100 millions de ventes numériques aux États-Unis.Rihanna compte au total huit albums studios et deux albums de remixes. Son premier album, Music of the Sun (2005), est orienté dancehall, reggae et pop, et son deuxième album, A Girl like Me (2006), est plus influencé par le RnB. Son troisième album, Good Girl Gone Bad (2007), se hisse au sommet des palmarès de nombreux pays. Rihanna fait paraître Rated R (2009), plus rock et plus sombre que les albums précédents. Loud (2010) marque une période eurodance. En 2011, elle fait paraître Talk That Talk, plus urbain. Son septième album, Unapologetic (2012). Son dernier album en date, Anti (2016), s'est classé en première position dans plusieurs pays.» 
+                            </p>
+                        </div>
+                        <div class="megan">
+                            <h1>Megan Thee Stallion</h1>
+                            <div>
+                                <img src="images/artiste/megan.jpg" alt="Megan Thee Stallion">
+                            </div>
+                            <h2>BIOGRAPHIE</h2>
+                            <p>
+                                « De son vrai nom Megan Jovon Ruth Pete, née le 15 février 1995 à San Antonio dans l’État du Texas (États-Unis)1, est une rappeuse américaine. Elle publie son EP Tina Snow en juin 2018, puis signe chez 300 Entertainment en novembre 2018, faisant d'elle la première rappeuse du label3. Son premier projet musical complet, nommé Fever, a été publié le 17 mai 2019.Elle a sorti son premier album studio Good News (2020) acclamé par la critique, apparaissant sur plusieurs listes des meilleurs albums de fin d'année. Elle a remporté ses premier et deuxième singles numéro un sur le Billboard Hot 100 américain avec le remix de sa chanson « Savage » (avec Beyoncé) et son long métrage sur le single « WAP » de Cardi B ; ce dernier étant son premier numéro un dans plusieurs autres pays, ainsi que le palmarès Billboard Global 200. En 2021, elle a été présentée aux côtés de Doja Cat sur le remix du single " 34 + 35 " d' Ariana Grande en 2020 , qui a atteint la deuxième place du Billboard Hot 100. »
+                            </p>
+                        </div>
+                    </div>
+                </section>
+                <section class="genre" id="4"><!--RECOMMENDATIONS-->
+                    
+                   <!-- <div class="titreTab">
+                        <img src="images/balleDisco.gif" alt="" id="gauche">
+                        <img src="images/balleDisco.gif" alt="" id="droit">
+                    </div>-->
+                    <table>
+                        <caption>
+                                <h1>-Recommendations-</h1>
+                        </caption>
+                        <thead>
+                            <tr>
+                                <th>Genres:</th>
+                                <th scope="col">Experimental</th>
+                                <th scope="col">Rap</th>
+                                <th scope="col">RnB</th>
+                                <th scope="col">Pop</th>
+                            </tr>
+                        </thead>      
+                        <tbody>
+                           <tr>
+                            <th scope="row" rowspan="2"> Artistes</th>
+                              <td class="bleu">Arca</td>
+                              <td class="rose">Tyler The Creator</td>
+                              <td class="bleu">SZA</td>
+                              <td class="rose">Kali Uchis</td>
+                           </tr>
+                           <tr>
+                                <td class="rose">Bjork</td>
+                                <td class="bleu">Megan Thee Stallion</td>
+                                <td class="rose">Sade</td>
+                                <td class="bleu">Fka Twigs</td>
+                           </tr>
+                           <tr>
+                              <th scope="row" rowspan="2"> Albums</th>
+                              <td class="bleu">Kick ii</td>
+                              <td class="rose">Wolf</td>
+                              <td class="bleu">SOS</td>
+                              <td class="rose">Sin Miedo</td>
+                           </tr>
+                           <tr>
+                              <td class="rose">Post</td>
+                              <td class="bleu">Traumazine</td>
+                              <td class="rose">Love Deluxe</td>
+                              <td class="bleu">Caprisongs</td>
+                           </tr>
+                           <tr>
+                              <th scope="row" rowspan="2">Chansons</th>
+                              <td class="bleu">Rakata</td>
+                              <td class="rose">48</td>
+                              <td class="bleu">Blind</td>
+                              <td class="rose">Fue Mejor</td>
+                           </tr>   
+                           <tr>
+                                <td class="rose">Army of me</td>
+                                <td class="bleu">Scary</td>
+                                <td class="rose">Cherish the day</td>
+                                <td class="bleu">Papi Bones</td>
+                            </tr> 
+                            <tr>
+                                <th colspan="5">Passez votre curseur sur les cases pour mieux voir!</th>
+                            </tr>      
+                </table>
+                
+                </section>
+                <section class="album" id="5"><!--GALERIE IMAGE ALBUM-->
+                    <div class="texteAl">
+                        <h1>Mes albums favoris de tous genres</h1>
+                        <h2>Survoler les images pour en savoir plus</h2>
+                    </div>
+                    <div class="images">
+                        <div class="fondAl">
+                            <img src="images/album/anti.png" alt="">
+                            <div class="texteAr">
+                                <h2 class="haut">ANTI</h2>
+                                <h3 class="bas">Rihanna</h3>
+                            </div>
+                        </div>
+                        <div class="fondAl">
+                            <img src="images/album/amore.jfif" alt="">
+                            <div class="texteAr">
+                                <h2 class="haut">AMORE MIO AIUTAMI</h2>
+                                <h3 class="bas">Piero Picciono</h3>
+                            </div>
+                        </div>
+                        <div class="fondAl">
+                            <img src="images/album/blueBanisters.png" alt="">
+                            <div class="texteAr">
+                                <h2 class="haut">BLUE BANISTERS</h2>
+                                <h3 class="bas">Lana Del Rey</h3>
+                            </div>
+                        </div>
+                        <div class="fondAl">
+                            <img src="images/album/bornThisWay.jpg" alt="">
+                            <div class="texteAr">
+                                <h2 class="haut">BORN THIS WAY</h2>
+                                <h3 class="bas">Lady Gaga</h3>
+                            </div>
+                        </div>
+                        
+                        <div class="fondAl">
+                            <img src="images/album/caprisongs.webp" alt="">
+                            <div class="texteAr">
+                                <h2 class="haut">CAPRISONGS</h2>
+                                <h3 class="bas">Fka Twigs</h3>
+                            </div>
+                        </div>
+                        
+                        <div class="fondAl">
+                            <img src="images/album/cmiygl.webp" alt="">
+                            <div class="texteAr">
+                                <h2 class="haut">CALL ME IF YOU GET LOST</h2>
+                                <h3 class="bas">Tyler The Creator</h3>
+                            </div>
+                        </div>
+                        <div class="fondAl">
+                            <img src="images/album/ctrl.webp" alt="">
+                            <div class="texteAr">
+                                <h2 class="haut">CTRL</h2>
+                                <h3 class="bas">SZA</h3>
+                            </div>
+                        </div>
+                        <div class="fondAl">
+                            <img src="images/album/fameMonster.jpg" alt="">
+                            <div class="texteAr">
+                                <h2 class="haut">FAME MONSTER</h2>
+                                <h3 class="bas">Lady Gaga</h3>
+                            </div>
+                        </div>
+                        <div class="fondAl">
+                            <img src="images/album/geminiRights.webp" alt="">
+                            <div class="texteAr">
+                                <h2 class="haut">GEMINI RIGHTS</h2>
+                                <h3 class="bas">Steve Lacy</h3>
+                            </div>
+                        </div>
+                        <div class="fondAl">
+                            <img src="images/album/homogenic.jpg" alt="">
+                            <div class="texteAr">
+                                <h2 class="haut">HOMOGENIC</h2>
+                                <h3 class="bas">Bjork</h3>
+                            </div>
+                        </div>
+                        <div class="fondAl">
+                            <img src="images/album/igor.jpg" alt="">
+                            <div class="texteAr">
+                                <h2 class="haut">IGOR</h2>
+                                <h3 class="bas">Tyler The Creator</h3>
+                            </div>
+                        </div>
+                        <div class="fondAl">
+                            <img src="images/album/invicible.jpg" alt="">
+                            <div class="texteAr">
+                                <h2 class="haut">INVICIBLE</h2>
+                                <h3 class="bas">Micheal Jackson</h3>
+                            </div>
+                        </div>
+                        <div class="fondAl">
+                            <img src="images/album/kickiii.webp" alt="">
+                            <div class="texteAr">
+                                <h2 class="haut">KICK III</h2>
+                                <h3 class="bas">Arca</h3>
+                            </div>
+                        </div>
+                        <div class="fondAl">
+                            <img src="images/album/loveDeluxe.png" alt="">
+                            <div class="texteAr">
+                                <h2 class="haut">LOVE DELUXE</h2>
+                                <h3 class="bas">Sade</h3>
+                            </div>
+                        </div>
+                        <div class="fondAl">
+                            <img src="images/album/mamasGun.jpg" alt="">
+                            <div class="texteAr">
+                                <h2 class="haut">MAMA'S GUN</h2>
+                                <h3 class="bas">Erykah Badu</h3>
+                            </div>
+                        </div>
+                        <div class="fondAl">
+                            <img src="images/album/meltMyeyesSeeyourFuture.webp" alt="">
+                            <div class="texteAr">
+                                <h2 class="haut">MELT MY EYES SEE YOUR FUTURE</h2>
+                                <h3 class="bas">Denzel Curry</h3>
+                            </div>
+                        </div>
+                        <div class="fondAl">
+                            <img src="images/album/planetHer.jfif" alt="">
+                            <div class="texteAr">
+                                <h2 class="haut">PLANET HER</h2>
+                                <h3 class="bas">Doja Cat</h3>
+                            </div>
+                        </div>
+                        <div class="fondAl">
+                            <img src="images/album/sos.webp" alt="">
+                            <div class="texteAr">
+                                <h2 class="haut">SOS</h2>
+                                <h3 class="bas">SZA</h3>
+                            </div>
+                        </div>
+                        <div class="fondAl">
+                            <img src="images/album/traumazine.webp" alt="">
+                            <div class="texteAr">
+                                <h2 class="haut">TRAUMAZINE</h2>
+                                <h3 class="bas">Megan Thee Stallion</h3>
+                            </div>
+                        </div>
+                        <div class="fondAl">
+                            <img src="images/album/velvetRope.webp" alt="">
+                            <div class="texteAr">
+                                <h2 class="haut">VELVET ROPE</h2>
+                                <h3 class="bas">Janet Jackson</h3>
+                            </div>
+                        </div>
+                        <div class="fondAl">
+                            <img src="images/album/vulnicura.png" alt="">
+                            <div class="texteAr">
+                                <h2 class="haut">VULNICURA</h2>
+                                <h3 class="bas">Bjork</h3>
+                            </div>
+                        </div>
+                        <div class="fondAl">
+                            <img src="images/album/whatsNew.png" alt="">
+                            <div class="texteAr">
+                                <h2 class="haut">WHAT'S NEW</h2>
+                                <h3 class="bas">Megan Thee Stallion</h3>
+                            </div>
+                        </div>
+                        <div class="fondAl">
+                            <img src="images/album/alias.webp" alt="">
+                            <div class="texteAr">
+                                <h2 class="haut">ALIAS</h2>
+                                <h3 class="bas">Shygirl</h3>
+                            </div>
+                        </div>
+                        <div class="fondAl">
+                            <img src="images/album/drukqs.png" alt="">
+                            <div class="texteAr">
+                                <h2 class="haut">DRUKQS</h2>
+                                <h3 class="bas">Aphex Twins</h3>
+                            </div>
+                        </div>
+                        <div class="fondAl">
+                            <img src="images/album/frank.png" alt="">
+                            <div class="texteAr">
+                                <h2 class="haut">Frank</h2>
+                                <h3 class="bas">Amy Whinehouse</h3>
+                            </div>
+                        </div>
+                        <div class="fondAl">
+                            <img src="images/album/lp1.png" alt="">
+                            <div class="texteAr">
+                                <h2 class="haut">LP1</h2>
+                                <h3 class="bas">Fka Twigs</h3>
+                            </div>
+                        </div>
+                        <div class="fondAl">
+                            <img src="images/album/lush.jpg" alt="">
+                            <div class="texteAr">
+                                <h2 class="haut">Lush</h2>
+                                <h3 class="bas">Mitski</h3>
+                            </div>
+                        </div>
+                        <div class="fondAl">
+                            <img src="images/album/whatsThe.jpg" alt="">
+                            <div class="texteAr">
+                                <h2 class="haut">WHAT'S THE 411</h2>
+                                <h3 class="bas">Mary J. Blige</h3>
+                            </div>
+                        </div>
+                        <div class="fondAl">
+                            <img src="images/album/marryMe.jpg" alt="">
+                            <div class="texteAr">
+                                <h2 class="haut">MARRY ME</h2>
+                                <h3 class="bas">St Vincent</h3>
+                            </div>
+                        </div>
+                        <div class="fondAl">
+                            <img src="images/album/mutant.webp" alt="">
+                            <div class="texteAr">
+                                <h2 class="haut">MUTANT</h2>
+                                <h3 class="bas">Arca</h3>
+                            </div>
+                        </div>
+                        <div class="fondAl">
+                            <img src="images/album/miseducation.jpg" alt="">
+                            <div class="texteAr">
+                                <h2 class="haut">THE MISEDUCATION OF LAURYN HILL</h2>
+                                <h3 class="bas">Lauryn Hill</h3>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="video" id="6"><!--VIDEO-->
+                    <div>
+                        <h1>Voici un petit documentaire pour en apprendre plus sur selon moi, le meilleur genre</h1>
+                    </div>
+                    <iframe src="https://www.youtube.com/embed/l5rpt0w8Bj8?start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <img src="images/helloKitty.gif" alt="Hello Hello Kitty">
+                </section>
+            </div>
+           <!--PIED DE PAGE-->
+            <footer>
+                <dl>
+                    <dt>Références</dt>
+                        <dd><a href="https://en.wikipedia.org/wiki/Megan_Thee_Stallion" >https://en.wikipedia.org/wiki/Megan_Thee_Stallion</a></dd>
+                        <dd><a href="https://fr.wikipedia.org/wiki/Tyler,_The_Creator">https://fr.wikipedia.org/wiki/Tyler,_The_Creator </a></dd>
+                        <dd><a href="https://fr.wikipedia.org/wiki/Rihanna">https://fr.wikipedia.org/wiki/Rihanna</a></dd>  
+                    <dt>Images</dt>    
+                        <dd><a href="https://docs.google.com/document/d/1JdpJoxfvYz8yk6ZvdCl1X-fz_bDTXdFGhjsU44Iw1VM/edit?usp=sharing" >https://docs.google.com/document/d/1JdpJoxfvYz8yk6ZvdCl1X-fz_bDTXdFGhjsU44Iw1VM/edit?usp=sharing</a></dd>
+                </dl>
+                <dl>
+                    <dt>Mes playlists Spotify</dt>
+                        <dd><a href="https://open.spotify.com/user/angelmely"><img src="images/spotify.webp" alt="Logo Spotify"></a></dd>
+                </dl>
+                <dl>
+                    <dt>Autres Informations</dt>
+                    <dd>3800 R. Sherbrooke E, Montréal, QC H1X 2A2</dd>
+                    <dd>Technique d'intégration multimédia</dd>
+                    <dd>582-1W1 Mise en page Web</dd>
+                    
+                </dl>
+                <div id="confi">
+                    <h4 >Avis de confidentialité ©Mélyna Laurent</h4>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>

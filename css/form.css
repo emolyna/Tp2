@@ -1,0 +1,117 @@
+.formulaire{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    margin: 30px;   
+}
+
+.formulaire div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: auto;
+    width: 35vw;
+    background-color:  rgb(94, 94, 94);
+    border-radius: 10px;
+    
+}
+
+.formulaire div div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+form{
+    width: auto;
+    height:auto;
+    display: flex;
+    flex-wrap: wrap;
+    /*justify-content: center;*/
+    border-radius: 10px;
+    color: pink;
+}
+
+
+.icone{
+    width: 75px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+fieldset{
+    border: none;
+    padding-top: 10px;
+    display: flex;
+    justify-items: center;
+}
+
+.range1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+#identification{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-items: center;
+    flex-wrap: wrap;
+    border-top: 3px dashed pink;
+    width: 100%;
+}
+
+input[type=text], input[type=number]{
+    display: block;
+    border-radius: 5px;
+    border: 2px solid pink;
+    height: 35px;
+    margin: 5px;
+
+}
+
+#passion{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-top: 3px dashed pink;
+    width: 100%;
+}
+
+#genre{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    border-top: 3px dashed pink;
+    width: 100%;
+}
+
+#recom{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    border-top: 3px dashed pink;
+    width: 100%;
+}
+
+textarea{
+    border-radius: 5px;
+    border: 2px solid pink;
+}
+
+input [type=submit]:hover{
+    color: pink;
+}
+
+legend{
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
